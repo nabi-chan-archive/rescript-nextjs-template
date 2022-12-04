@@ -1,0 +1,16 @@
+{
+  "name": "rescript-nextjs-template",
+  "bs-dependencies": ["@rescript/react", "@greenlabs/rescript-next"],
+  "reason": { "react-jsx": 3 },
+  "suffix": ".js",
+  "package-specs": {
+    "module": "es6",
+    "in-source": true
+  },
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ]
+}
