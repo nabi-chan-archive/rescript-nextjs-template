@@ -6,10 +6,13 @@
     "res:dev": "rescript build -w",
     "res:build": "rescript build",
     "res:clean": "rescript clean",
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "next:dev": "next dev",
+    "next:build": "next build",
+    "next:start": "next start",
+    "next:lint": "next lint",
+    "css:dev": "tailwindcss -i src/styles/tailwind.css -o src/styles/dist.css -w",
+    "css:build": "tailwindcss -m -i src/styles/globals.css -o src/styles/dist.css",
+    "dev": "concurrently \"npm run css:dev\" \"npm run next:dev\""
   },
   "dependencies": {
     "@greenlabs/rescript-next": "^0.3.1",
@@ -21,6 +24,10 @@
   },
   "devDependencies": {
     "@rescript/react": "^0.10.3",
-    "rescript": "^10.0.1"
+    "autoprefixer": "^10.4.13",
+    "concurrently": "^7.6.0",
+    "postcss": "^8.4.19",
+    "rescript": "^10.0.1",
+    "tailwindcss": "^3.2.4"
   }
 }

@@ -34,3 +34,6 @@ yarn-error.log*
 /src/*.js
 .bsb.lock
 .merlin
+
+# tailwindcss
+src/styles/dist.css

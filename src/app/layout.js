@@ -2,6 +2,9 @@
 
 import * as React from "react";
 
+import 'styles/dist.css'
+;
+
 function $$default(props) {
   return React.createElement("html", undefined, React.createElement("head", undefined), React.createElement("body", undefined, props.children));
 }
@@ -10,4 +13,4 @@ export {
   $$default ,
   $$default as default,
 }
-/* react Not a pure module */
+/*  Not a pure module */
