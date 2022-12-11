@@ -11,6 +11,14 @@
     {
       "dir": "src",
       "subdirs": true
+    },
+    {
+      "dir": "pages",
+      "subdirs": true
+    },
+    {
+      "dir": "bindings",
+      "subdirs": true
     }
   ]
 }

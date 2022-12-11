@@ -4,6 +4,6 @@ This is [NextJS](https://nextjs.org) with [ReScript](https://rescript-lang.org/)
 
 - [x] tailwindcss
   - [ ] More simplify tailwindcss (how?)
-- [ ] NextJS API `NextApiRequest`, `NextApiResponse`
+- [x] NextJS API `NextApiRequest`, `NextApiResponse`
 - [x] Multiple page support
   - [ ] More better multiple page support
