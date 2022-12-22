@@ -5,9 +5,9 @@ import * as Caml_option from "rescript/lib/es6/caml_option.js";
 
 function $$default(req, res) {
   var message = Js_dict.get(req.query, "message");
-  return res.status(200).json({
-              message: message !== undefined ? Caml_option.valFromOption(message) : "Hello ReScript!"
-            });
+  res.status(200).send({
+        message: message !== undefined ? Caml_option.valFromOption(message) : "Hello ReScript!"
+      });
 }
 
 export {
