@@ -14,12 +14,12 @@ let default = () =>
 ### NextJS Api Route
 
 ```rescript
-let default = (req: Next.req, res: Next.res) => {
+let default = (req: NextApi.req, res: NextApi.res) => {
   res
-  ->Next.status(200)
-  ->Next.send({
+  ->NextApi.status(200)
+  ->NextApi.send({
     "message": {
-      switch req->Next.query->Js.Dict.get("message") {
+      switch req->NextApi.query->Js.Dict.get("message") {
       | Some(message) => message
       | None => "Hello ReScript!"
       }
