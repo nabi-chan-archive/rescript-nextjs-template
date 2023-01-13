@@ -1,4 +1,4 @@
-%%raw("import 'styles/dist.css'")
+%%raw("import 'styles/tailwind.css'")
 type layoutProps = {children: React.element}
 
 let default = (props: layoutProps) => {

@@ -2,7 +2,7 @@
 
 import * as React from "react";
 
-import 'styles/dist.css'
+import 'styles/tailwind.css'
 ;
 
 function $$default(props) {

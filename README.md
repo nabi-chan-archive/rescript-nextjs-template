@@ -31,7 +31,7 @@ let default = (req: NextApi.req, res: NextApi.res) => {
 ## To-Do
 
 - [x] tailwindcss
-  - [ ] More simplify tailwindcss (how?)
+  - [x] More simplify tailwindcss (how?)
 - [x] NextJS API `NextApiRequest`, `NextApiResponse`
 - [x] Multiple page support
   - [ ] More better multiple page support

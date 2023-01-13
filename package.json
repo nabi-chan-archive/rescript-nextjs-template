@@ -10,15 +10,13 @@
     "next:build": "next build",
     "next:start": "next start",
     "next:lint": "next lint",
-    "css:dev": "tailwindcss -i src/styles/tailwind.css -o src/styles/dist.css -w",
-    "css:build": "tailwindcss -m -i src/styles/globals.css -o src/styles/dist.css",
-    "dev": "concurrently \"npm run css:dev\" \"npm run next:dev\""
+    "dev": "concurrently \"yarn res:dev\" \"yarn next:dev\""
   },
   "dependencies": {
     "@greenlabs/rescript-next": "^0.3.1",
     "eslint": "8.29.0",
     "eslint-config-next": "13.0.6",
-    "next": "13.0.6",
+    "next": "13.1.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
